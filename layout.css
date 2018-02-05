@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/* These are styles for all screen sizes  */
+
+/* Flex Layout Styles */
+
+
+
+body {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column;
+	flex-flow: column;
+
+
+}
+header{
+	size.text-decoration-color: #ffffff;
+	background-image: url("forest.jpg");
+	display: inline;
+	font-size: 80pt;
+	text-align: center;
+	color: white;
+	text-shadow: 3px 2px red;
+}
+
+div {
+	/* background-color: #ffffff; */
+	position: inherit;
+}
+
+.myGameButtons {
+	width: 100%;
+	height: auto;
+}
+
+	.logo{
+	width: auto;
+	height: auto;
+	max-width: 100px;
+  max-height: 300px;
+	position: relative;
+	}
+
+
+/* Footer styles */
+footer{
+text-align: center;
+}

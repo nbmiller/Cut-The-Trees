@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>CutTheTrees</title>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href= "layout.css" rel= "stylesheet" />
+<link href= "media.css" rel= "stylesheet" />
+<script type="text/javascript" src="cuttingTrees.js"></script>
+
+</head>
+
+<body>
+
+   <header>
+
+         Cut The Trees - A Game for the Industrialists
+   </header>
+
+   <body onload= "getLocalFile()" >
+       </body>
+
+
+    <div id="myGameButtons" class="myGameButtons">
+      <b>This Game Is Meant To Be Played With Chrome!</b></br></br>
+      <input type="button" class="reset" id="reset" value="Reset" onclick="Javascript:reset()" 250px></td>
+      <b> The environment will magically improve greatly and global
+        warming is no more.. Yay! (Disclaimer: The science for this does not
+        currently exist IRL.)</b></br></br>
+
+      <input type="button" id="showA" value="Show Answers" onclick="Javascript:showAnswers()"250px></td>
+    <b> Accept Defeat, but annoy environmentalists anyway (Green means icon pressed is correct,
+    red means you still need to press it, no change means you pressed the wrong one silly!)</br>
+    (Can Be Pressed More Than Once)</b></br></br>
+
+      <input type="text" id="size" value="12" size="10" name="size">
+
+    <input type="button" id="playB" value="Play Game" onclick="Javascript:changeSize()">
+    <b> Enter a Size (Integer) and Press "Play Game" to randomly generate a new puzzle of the corresponding size.
+    Don't Get Greedy.</b></br></br>
+
+    </div>
+
+    <div id="myGame">
+
+      </div>
+
+
+   <footer>
+     <img src="myLogo.png" class="logo"alt="My Logo" style="auto"></br>
+     All images were taken from the free use site: http://freeuse.io,
+     with the exception of my badass logo.</br>
+      &copy; Nick Miller - 2018
+   </footer>
+</body>
+</html>

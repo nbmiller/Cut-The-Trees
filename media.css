@@ -1,0 +1,26 @@
+@media only screen and (max-width: 480px) {
+/* styles for
+only
+mobile devices */
+body > header{ order: 1;}
+body > nav {order: 4;}
+body > article {order: 3;
+text-align: center;}
+body > section {order: 2;}
+body > footer {order: 5;}
+}
+@media only screen and (min-width: 481px) {
+/* styles for
+larger
+device
+s
+–
+greater than 481px in width */
+
+body > header{ order: 1;}
+body > div {order: 2;}
+body > article {order: 3;}
+body > section {order: 4;}
+body > footer {order: 5;}
+
+}
