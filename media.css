@@ -2,12 +2,13 @@
 /* styles for
 only
 mobile devices */
-body > header{ order: 1;}
-body > nav {order: 4;}
-body > article {order: 3;
-text-align: center;}
-body > section {order: 2;}
-body > footer {order: 5;}
+body > header{ order: 1;
+max-width: 480px;
+font-size: 40pt;}
+
+body > div {order: 2;
+}
+body > footer {order: 3;}
 }
 @media only screen and (min-width: 481px) {
 /* styles for

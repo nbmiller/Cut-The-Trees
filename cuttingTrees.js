@@ -13,7 +13,7 @@ function getLocalFile(){
 
    else{
 
-    number = 12;
+    number = 6;
   }
   addTable(number);
 }
